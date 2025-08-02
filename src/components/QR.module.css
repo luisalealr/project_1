@@ -1,0 +1,16 @@
+.qr_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 230px;
+  width: 230px;
+  background-color: rgb(58, 83, 212);
+  border-radius: 15px;
+}
+
+.qr_image {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+}
