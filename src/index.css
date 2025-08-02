@@ -5,10 +5,3 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-  background-color: rgb(165, 202, 207);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
