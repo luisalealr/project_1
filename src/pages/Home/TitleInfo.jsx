@@ -1,10 +1,11 @@
 import { FaStar } from "react-icons/fa6";
+import style from "./InfoHome.module.css";
 
 export const TitleInfo = () => {
   return (
-    <div>
+    <div className={style.title_container} >
       <p>Twenty One Pilots</p>
-      <div>
+      <div className={style.star}>
         <FaStar />
         <FaStar />
         <FaStar />

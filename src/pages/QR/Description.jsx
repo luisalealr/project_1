@@ -4,8 +4,8 @@ const Description = () => {
   return (
     <div className={style.description_container}>
       <p>
-        Scan the QR code to visit Frontend Mentor and grow your coding skills to
-        the next level
+        Scan the QR code to visit the official Twenty One Pilots website and
+        stay updated with the latest news, music releases, and tour information.
       </p>
     </div>
   );

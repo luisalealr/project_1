@@ -1,13 +1,16 @@
+import { BotonesInfo } from "./BotonesInfo"
 import { Imageinfo } from "./Imageinfo"
+import { TextoInfo } from "./TextoInfo"
 import { TitleInfo } from "./TitleInfo"
+import style from "./InfoHome.module.css"
 
 export const InfoHome = () => {
   return (
-    <div>
+    <div className={style.container}>
         <Imageinfo /> 
         <TitleInfo />
-        Text 
-        Botones
+        <TextoInfo /> 
+        <BotonesInfo />
     </div>
   )
 }

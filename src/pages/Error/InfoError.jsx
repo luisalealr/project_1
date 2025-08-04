@@ -1,8 +1,8 @@
-//import style from "./Error.module.css";
+import style from "./Error.module.css";
 
 export const InfoError = () => {
   return (
-    <div >
+    <div className={style.info_error}>
       <h1 class="titulo_error">I have bad news for you</h1>
       <p>
         The page you are looking for might be removed or is temporarily

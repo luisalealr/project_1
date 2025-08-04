@@ -1,14 +1,14 @@
 import { Route, Routes } from "react-router-dom";
-import { Shop } from "./pages/Shop";
 import { Error } from "./pages/Error/Error";
 import { NavBar } from "./components/NavBar";
 import Card from "./pages/QR/Card";
 import style from "./App.module.css"
 import { CardInfo } from "./pages/Home/CardInfo";
+import { Shop } from "./pages/Shop/Shop";
 
 const App = () => {
   return (
-    <div>
+    <div className={style.app}>
       <NavBar />
       <hr />
       <div className={style.container}>

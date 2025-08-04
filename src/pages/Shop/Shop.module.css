@@ -1,0 +1,58 @@
+.container {
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image {
+    width: 180px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.title_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 40%;
+}
+
+.image_container {
+    width: 190px;
+    height: 160px;
+    overflow: hidden;
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.boton_secundario {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: solid 2px black;
+  color: black;
+  width: 150px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #c11313;
+    border-radius: 0px;
+    background-color: #c11313;
+}

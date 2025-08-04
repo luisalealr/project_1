@@ -29,8 +29,9 @@ h1 {
 .boton_back {
   text-decoration: none;
   padding: 10px 20px;
-  background-color: black;
+  background-color: #c11313;
   color: white;
+  font-weight: bold;
   width: fit-content;
   border-radius: 2px;
 }
@@ -47,4 +48,8 @@ h1 {
   .contenido {
     grid-template-columns: 1fr;
   }
+}
+
+.info_error{
+  color: white;
 }
